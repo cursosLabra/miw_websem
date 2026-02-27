@@ -1,0 +1,31 @@
+prefix : <http://example.org/> 
+prefix wd: <http://www.wikidata.org/entity/>
+
+:alice :knows :bob, :carol ;
+       :name "Alice" ;
+       :tiene :coche1 ;
+       :birthPlace wd:Q14317 .
+
+:bob :knows :carol ;
+     :name "Bob" ;
+     :birthPlace wd:Q12273 .
+
+:carol :knows :dave ; 
+       :name "Carole" ;
+       :tiene :lulu ;
+       :birthPlace wd:Q14649 .
+
+:dave :name "Dave"  .
+
+:coche1 :marca "Toyota" ;
+        :matricula "9999-XXX".
+
+:lulu a :Perro ;
+      :raza "Border-Collie" .
+
+:juan :name "Juan" ;
+     :padre :alice ;
+     :knows :pedro .
+:pedro :name "Pedro" ;
+     :padre :alice, :carol ;
+       :knows :juan .

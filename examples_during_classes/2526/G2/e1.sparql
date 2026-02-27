@@ -1,0 +1,6 @@
+prefix : <http://ejemplo.org/>
+prefix schema: <http://schema.org/>
+
+select ?name {
+    ?name :alumnoDe ?group
+}

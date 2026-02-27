@@ -1,0 +1,16 @@
+prefix : <http://example.org/> 
+prefix wd: <http://www.wikidata.org/entity/>
+prefix xsd:    <http://www.w3.org/2001/XMLSchema#> 
+
+:Persona {
+    :name       xsd:string   ;
+    :knows      @:Persona  * ;
+    :tiene      @:Coche OR @:Perro * ;
+    :birthPlace .          ? ;
+}
+:Coche {
+    :matricula  xsd:string ;
+}
+:Perro {
+    :raza xsd:string
+}

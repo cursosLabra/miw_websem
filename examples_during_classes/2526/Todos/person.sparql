@@ -1,0 +1,6 @@
+prefix : <http://example.org/> 
+prefix wd: <http://www.wikidata.org/entity/>
+
+SELECT * WHERE {
+    ?persona :birthPlace ?place
+}

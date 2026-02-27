@@ -1,0 +1,13 @@
+prefix : <http://ejemplo.org/>
+prefix schema: <http://schema.org/>
+
+:dayver :alumnoDe :grupo2 ;
+ schema:givenName "Dayver" ;
+ schema:lastName "De la Hoz" .
+:john :alumnoDe :grupo2 .
+:hugo :alumnoDe :grupo2 .
+:manuel :alumnoDe :grupo2 .
+:bryan :alumnoDe :grupo2 .
+:sara :alumnoDe :grupo2 .
+:daniela :alumnoDe :grupo2 .
+:adan :alumnoDe :grupo2 .

@@ -1,0 +1,3 @@
+prefix : <http://example.org/>
+
+:oviedo :population 220000 {| :accordingTo 2025 |} .

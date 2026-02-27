@@ -1,0 +1,39 @@
+@prefix :       <http://ejemplo.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:sara   :alumnoDe  :grupo2 ;
+        :conoce _:x .
+  
+ _:x :edad 23 .
+
+:john   :alumnoDe  :grupo2 ;
+        :conoce [ :edad 45 ].
+
+:gonzalo  :alumnoDe       :grupo1 ;
+        schema:birthDate  "Ni idea" .
+
+:adan   :alumnoDe  :grupo2 .
+
+:bryan  :alumnoDe  :grupo2 .
+
+:samuel  :alumnoDe  :grupo2 , :grupo1 .
+
+:hugo   :alumnoDe  :grupo2 .
+
+:dayver  :alumnoDe        :grupo2 ;
+        schema:givenName  "Dayver" ;
+        schema:lastName   "De la Hoz" .
+
+:daniela  :alumnoDe  :grupo2 .
+
+:mario  :alumnoDe          :grupo1 ;
+        :edad              23 ;
+        :tamañoPie         46.5 ;
+        schema:familyName  "Junquera" ;
+        schema:givenName   "Mario" .
+
+:raul   :alumnoDe         :grupo1 ;
+        schema:birthDate  "2003-01-29"^^xsd:date .
+
+:manuel  :alumnoDe  :grupo2 .

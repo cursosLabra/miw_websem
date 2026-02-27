@@ -1,0 +1,10 @@
+prefix :       <http://example.org/>
+prefix xsd:    <http://www.w3.org/2001/XMLSchema#>
+prefix schema: <http://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+:Persona {
+  schema:givenName xsd:string ;
+  schema:familyName xsd:string ;
+  schema:birthDate xsd:date
+}

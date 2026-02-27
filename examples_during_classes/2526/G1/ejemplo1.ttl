@@ -1,0 +1,22 @@
+prefix : <http://ejemplo.org/>
+prefix schema: <http://schema.org/>
+prefix xsd:<http://www.w3.org/2001/XMLSchema#>
+base <http://miw.org/>
+
+:mario :alumnoDe :grupo1;
+	schema:givenName "Mario";
+  	schema:familyName "Junquera";
+    schema:birthDate "2003-05-21"^^xsd:date ;
+	:edad 22 ;
+ 	:tamañoPie 45.5 .
+:raúl :alumnoDe :grupo1 ;
+      schema:givenName "Raúl" ;
+      schema:familyName "Mera" ;
+	schema:birthDate "2003-01-29"^^<xsd:date> .
+:gonzalo :alumnoDe :grupo1;
+         schema:givenName "Gonzalo" ;
+         schema:familyName "Alonso" ;
+	schema:birthDate "Quién sabe"^^xsd:date .
+:samuel :alumnoDe :grupo1,:grupo2  .
+
+:grupo1 :profesor <Labra> .
