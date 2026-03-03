@@ -1,0 +1,22 @@
+@prefix ex: <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Autores
+ex:author3 a schema:Person ;
+    foaf:name "Perry Mason" ;
+    schema:birthDate "1987-07-15"^^xsd:date ;
+    schema:nationality "Denmark" .
+
+ex:author2 a schema:Person ;
+    foaf:name "Perico los Palotes" ;
+    schema:birthDate "1977-02-22"^^xsd:date ;
+    schema:nationality "Andorra" .
+
+ex:author3 a schema:Person ;
+    foaf:name "Jason Smith" ;
+    schema:birthDate "1991-11-03"^^xsd:date ;
+    schema:nationality "UK" .
